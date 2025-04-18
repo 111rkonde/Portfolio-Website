@@ -20,11 +20,11 @@ const projects: Project[] = [
     id: 1,
     title: "Build a Dynamic Portfolio Website",
     description:
-      "Build a dynamic portfolio website with Tailwind CSS and React. It should be responsive and have a clean design.",
-    tags: ["Tailwind.CSS", "React", "Next.js", "TypeScript"],
+      " Ownner of this website . Build a dynamic portfolio website with Tailwind CSS and React. It should be responsive and have a clean design.",
+    tags: ["Tailwind.CSS", "React", "Next.js", "TypeScript", "HTML", "CSS"],
     
-    demo: "https://example.com",
-    github: "https://example.com",
+    demo: "https://yogeshkonde-portfolios.netlify.app/",
+    github: "https://github.com/111rkonde/Portfolio-Website",
     image: "project1.jpg"
   },
   {
@@ -34,7 +34,7 @@ const projects: Project[] = [
       "Meet Luna — your AI-powered productivity partner. Stay organized with intelligent reminders and stay ahead with real-time smart suggestions",
     tags: ["OpenAI", "Python", "OPENAI API", "All AI-Powered Tools"],
     demo: "https://example.com",
-    github: " https://example.com",
+    github: " https://github.com/111rkonde/Portfolio-Website",
     image: "/images/project2.jpg"
   },
   {
@@ -44,7 +44,7 @@ const projects: Project[] = [
       "Smart Fertilizer Detector powered by AI. Detects the best fertilizer for your crops and plants with real-time data visualization.",
     tags: ["Python", "Android Application", "API Integration", "TensorFlow", "Keras"],
     demo: "https://example.com ",
-    github: "https://example.com ",
+    github: "https://github.com/111rkonde/Portfolio-Website ",
     image: "/images/project3.jpg"
   },
 ];

@@ -39,9 +39,9 @@ export function Hero() {
               </Link>
             </Button>
             <Button variant="outline" asChild className="h-12 px-6 gap-2">
-              <a href="https://github.com" target="_blank" rel="noreferrer">
+              <a href="https://github.com/111rkonde/Portfolio-Website" target="_blank" rel="noreferrer">
                 <Github className="h-4 w-4" />
-                GitHub Profile
+                My GitHub Profile
               </a>
             </Button>
           </div>
@@ -86,13 +86,13 @@ export function Hero() {
                   <br />
                   {"  "}job_type: <span className="text-green-400">'Remote'</span>,
                   <br />
-                  {"  "}job_time: <span className="text-green-400">'Full Time And Part Time'</span>,
+                  {"  "}job_time: <span className="text-green-400">'Full Time <span className="text-purple-400">OR</span> Part Time'</span>,
                   <br />
                   {"  "}job_location: <span className="text-green-400">'All Over India'</span>,
                   <br />
                   {"  "}resume:{" "}
                   <a
-                    href="https://example.com"
+                    href="https://github.com/111rkonde/Portfolio-Website"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group inline-block text-green-400 underline underline-offset-4 decoration-green-400 transition-all duration-300 ease-in-out transform hover:scale-110 px-2 py-1 rounded-md hover:bg-green-100"

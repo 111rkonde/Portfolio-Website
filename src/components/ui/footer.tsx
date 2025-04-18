@@ -21,7 +21,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-5">
               <Button variant="ghost" size="icon" className="hover:bg-secondary" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/111rkonde/Portfolio-Website" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -31,7 +31,7 @@ export function Footer() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:bg-secondary" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/yogeshkonde/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

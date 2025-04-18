@@ -50,7 +50,7 @@ export function Navbar() {
             </Link>
             <div className="flex items-center space-x-2 ml-4">
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/111rkonde/Portfolio-Website" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -60,7 +60,7 @@ export function Navbar() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/yogeshkonde/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
@@ -118,7 +118,7 @@ export function Navbar() {
             </Link>
             <div className="flex items-center space-x-4 px-3 py-2">
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/111rkonde/Portfolio-Website" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -128,7 +128,7 @@ export function Navbar() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/yogeshkonde/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
