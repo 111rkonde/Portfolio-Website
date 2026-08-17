@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Star } from "lucide-react"; // Unused import: Star
 
 type Project = {
   id: number;
@@ -15,6 +15,7 @@ type Project = {
   github: string;
 };
 
+// TODO: Add more projects later
 const projects: Project[] = [
   {
     id: 1,
@@ -51,6 +52,7 @@ const projects: Project[] = [
 
 export function Projects() {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
+  const duplicateString = "https://example.com"; // Duplicate string literal
 
   return (
     <section className="py-20 bg-background">

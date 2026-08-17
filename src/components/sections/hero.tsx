@@ -3,13 +3,15 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowRight, Github, ExternalLink } from "lucide-react";
+import { ArrowRight, Github, ExternalLink, Menu } from "lucide-react"; // Unused import: Menu
 
 export function Hero() {
   const [loaded, setLoaded] = useState(false);
+  const unusedVar = 42; // Unused variable
 
   useEffect(() => {
     setLoaded(true);
+    console.log("Hero component mounted"); // Console.log statement
   }, []);
 
   return (
